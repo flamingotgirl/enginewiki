@@ -1,0 +1,53 @@
+ul, li, ol, p							{ font-size:14px;}
+
+html, body					{ margin:0; padding:0; background: #f7f7f7; width:100%;
+							  font-size:14px; font-family:  Verdana, "Bitstream Vera Sans Mono", Bitstream, 'Trebuchet MS', Helvetica, sans-serif;}
+
+h1, h2						{ font-family:Arial, sans-serif; margin:0; padding:0;}
+
+
+
+#title 						{ background-color:#252525; padding:8px 2px 8px 2px;}
+#title h1					{ margin:0; padding:0; color:#777;font-family:Georgia;font-style:italic;font-size:24px}
+
+
+#searchform					{ background-color:#353535; padding:10px; }
+
+
+#maintable 					{ width:100%; min-width:980px; max-width:1200px; border-collapse:collapse;}
+
+
+#maintable td.tmenu 		{ background:#f0f0f0; vertical-align:top; width:250px !important; }
+
+#maintable td.tcontents 	{ width:auto; min-width:730px; max-width:950px; vertical-align:top;}
+
+
+pre							{ width:inherit;  overflow:auto; background-color:#fff; padding:5px; border-radius:5px;}
+
+
+
+.row_render 				{ margin-bottom:12px; }
+
+
+
+
+#feeds 						{ padding:10px; padding-bottom:50px; padding-left:20px;}
+
+#feeds h1					{ margin-bottom:10px; padding-bottom:2px; border-bottom:2px solid #ccc;}
+
+
+
+
+#content_0					{ border-top: 2px solid #ccc; padding-top:10px; margin-bottom:20px;}
+
+
+
+
+#feeds form					{ background-color:#f0f0f0; padding:10px; border-radius:5px;}
+
+
+.description				{ font-size:0.9em;  background-color:#f0f0f0; padding:5px;}
+
+.sectionsubmit				{ padding:10px 0;}
+
+.span.cke_skin_kama			{ padding:0 !important;}

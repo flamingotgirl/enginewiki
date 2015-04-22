@@ -1,0 +1,127 @@
+/* ############################################################################################################################################################################## */
+/* # RESET 																		*/
+/* ############################################################################################################################################################################## */
+
+	/*ul,ol,li,*/h1,h2,h3,h4,h5,h6,pre,form,body,html,input, table
+							{ margin:0; padding:0 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+	:link,:visited 			{ text-decoration:none }
+	:focus					{ outline:0;}
+
+	a img, :link img, :visited img, table
+							{ border:none }
+
+	address 				{ font-style:normal }
+
+	ins						{ text-decoration:none;}
+
+	table td				{ vertical-align:top;}
+
+/* ############################################################################################################################################################################## */
+
+	html, body 				{ color:#444; margin:0; padding:0; /*overflow:auto;*/ }
+
+	html					{ background-color:#fff; height:100%; min-height:100%;}
+
+	html					{ overflow-y:scroll; }
+	body					{ height:inherit;}
+
+
+/* ############################################################################################################################################################################## */
+
+	a						{ color:#0078D2; text-decoration:underline;}
+	a:hover					{ }
+
+	label, input[type=checkbox]			{ cursor:pointer; position:relative;}
+	label input				{ display:inline-block;  vertical-align:top; position:relative; bottom:-1px; margin-right:10px;}
+
+	textarea				{ background-color:#fffff6; border:1px #999 solid; border-width:2px 1px 1px 2px;}
+	option					{ padding-left:4px;}
+
+
+/* ############################################################################################################################################################################## */
+
+	.reset					{ padding:0; margin:0; border:0;}
+
+	.right					{ float:right;}
+	.left					{ float:left;}
+	.clear					{ clear:both; }
+
+
+	.none, .hidden			{ display:none;}
+	.hide 					{ display:none !important;}
+
+	.pointer				{ cursor:pointer}
+
+
+
+	.bold 					{ font-weight:bold; }
+
+	.white 					{ color:#fff; }
+	.black 					{ color:#000 !important; }
+	.green 					{ color:#9ebb6f; }
+	.red 					{ color:#f00 !important; }
+
+	.dim					{ color:#ccc;}
+	.texthighlight			{ color:#f00;}
+
+	.smallcaps				{ text-transform:lowercase;}
+	.small					{ font-size:10px;}
+	.smallest				{ font-size:8px; font-family:Arial,sans-serif;}
+
+	.darker					{ background-color:rgba(0,0,0,0.04);}
+	.darker:hover			{ background-color:rgba(0,0,190,0.06); background-color:rgba(0,0,0,0.06);}
+
+	a.darker,
+	.darker.small			{ padding:1px 6px;}
+
+	.padding				{ padding:5px;}
+
+	.separator 				{ height:30px; }
+
+	.print_a				{ border:2px #09c solid; background:#eff; padding:10px; position:relative; margin:10px 0;
+							  -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;
+							  -moz-box-shadow: #ccc 0 0 5px ; -webkit-box-shadow: #ccc 0 0 5px;}
+
+	.transp					{ opacity:0.5;}
+
+	.mag_top				{ margin-top:10px;}
+	.mag_right				{ margin-right:10px;}
+	.mag_left				{ margin-left:10px;}
+
+
+	.ddlevel-1				{ padding-left:16px !important; }
+	.ddlevel-2				{ padding-left:32px !important; }
+	.ddlevel-3				{ padding-left:48px !important; }
+	.ddlevel-4				{ padding-left:64px !important; }
+
+
+
+	.nomargin				{margin:0 !important;}
+	.noborder				{border:0 !important;}
+	.nopadding				{padding:0 !important;}
+	.nowrap					{ white-space:nowrap;}
+
+/* ############################################################################################################################################################################## */
+
+
+	.moz_round				{ -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+	.moz_round_small		{ -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+	.moz_round_big			{ -moz-border-radius:12px;-webkit-border-radius:12px; border-radius:12px;}
+	.moz_round_tab			{ -moz-border-radius:6px 6px 0 0;  -webkit-border-top-left-radius:6px; -webkit-border-top-right-radius:6px; border-top-left-radius:6px; border-top-right-radius:6px; }
+
+/* ############################################################################################################################################################################## */
+
+	.moz_shadow				{-moz-box-shadow: #e0e0e0 0 0 5px ; -webkit-box-shadow: #e0e0e0 0 0 5px;}
+
+	.grey_gradient			{
+
+		background: #d1d1d1; /* for non-css3 browsers */
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#a1a1a1'); /* for IE */
+		background: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#a1a1a1)); /* for webkit browsers */
+		background: -moz-linear-gradient(top,  #ebebeb,  #a1a1a1); /* for firefox 3.6+ */
+
+
+	}
